@@ -1,0 +1,6 @@
+html,body {height: 100%;max-width:100%}
+body {overflow-x:hidden}
+.req:after {content:"*";font-size:14px;color:#cc0000;padding-left:4px}
+.school_val_error{
+    color:red;
+}

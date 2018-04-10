@@ -1,0 +1,312 @@
+
+*{
+	margin:0px;
+	padding:0px;
+
+}
+body {
+    font-family: "Roboto",Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    line-height: 1.5384616;
+    color: #333;
+}
+
+.footer
+{
+background-color:#ffffff;
+ height:40px; 
+ text-align :center;	
+ 
+}
+
+.upper
+{
+    min-width: auto;
+    padding-right: 0px;
+    height: 42px;
+}
+	
+.sidenav
+{
+
+    background-color: #2e3436;
+    transition: 0.5s;
+    min-width: 260px;
+    min-height: 95px;
+
+}
+.navigation>li.active>a, .navigation>li.active>a:hover, .navigation>li.active>a:focus {
+    background-color: #455a64;
+    color: #fff;
+}
+
+core.min.css:1
+a, button, input, textarea {
+    outline: 0;
+}
+core.min.css:1
+a {
+    cursor: pointer;
+}
+bootstrap.min.css:1
+a {
+    color: #1e88e5;
+    text-decoration: none;
+}
+bootstrap.min.css:1
+a {
+    background-color: transparent;
+}
+bootstrap.min.css:1
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+span {
+	
+	padding-left: 13px;
+}
+#Nonedisc
+{
+	
+	list-style-type: none;
+}
+
+.sideleft
+{
+    height: 100%;
+    width: 260px;
+    color:white;
+}
+.rightside
+{
+	background:#d3d7cf;
+	
+}
+
+.navbar-header
+{
+	
+	background:#2e3436;
+	height: 42px;
+	min-width: 260px;
+}
+
+.navbar-brand
+{
+	padding:12px 20px 12px 20px;
+}
+.navbar-brand>img
+{
+    min-margin-top: 12px;
+    height: 16px;  
+    margin-top: 13px;
+}
+.navbar-container
+{
+	width:79%;
+	color:black;
+	background:white;
+	height: 42px;
+	
+}
+	
+.navbar-form input[type=text], .btn 
+{
+    float: left;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    padding: 10px 13px 14px 7px;
+    color: black;
+    background: white;
+    height: 29px;
+}
+.bg-info
+{
+	background-color: #00bcd4;
+    border-color: #eefbfd;
+    margin: 50px;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.rightside {
+    min-width: 963px;
+    min-height: 834px;
+    margin-left: 306px;
+    margin-top: -500;
+    padding-bottom: 5;
+    padding-left: 28px;
+    padding-top: 28px;
+    padding-right: 28px;
+    border-right-width: 0px;
+    background: #f5f5f5;
+    margin-left: 306px;
+    margin-top: -841px;
+    width: 904px;
+    
+}
+
+
+.inline{
+	  float:left;
+}
+.right{
+	float:right;
+}
+
+.pageheader
+{
+    width: 940px;
+    height: 36px;
+}
+button.search.inline
+{
+	
+    margin-top: 10px;
+    background-color:  white;
+    border-color: white;
+    padding: 2px;
+    margin-left:  21px;
+    margin-top: 6px	
+}
+	
+.iconbar
+{
+margin-top: 11px;
+margin-left: 10px;
+    
+}
+
+.iconbar>a
+{
+color:black;
+}
+.clearfix::after
+ {
+    content: "";
+    clear: both;
+    display: table;
+}
+li.loglist
+{
+	display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;	
+}
+	
+<!--           sidebar           -->
+.slabel
+{
+	color:white;
+	
+}
+.headerlist
+ {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   	min-width: 260px;
+    background-color: #283238;
+    position: inherit;
+    height: 100%;
+    overflow: hidden;
+}
+.headerlist >li a
+{
+    display: block;
+    color: white;
+    padding: 8px 25px;
+    text-decoration: none;
+}
+.headerlist >li 
+{
+    text-decoration: none;
+}
+li a:hover:not(.active)
+ {
+    background-color: #555;
+    color: white;
+    display:block;
+}
+div#Nonedisc.dropdown-container>li:active{
+	dispay:block;
+	backgroung:#1a1a1a;
+	
+}
+.dropdown-container
+{
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+}
+.bread 
+ {
+	 color:black;
+	 background:white;
+}
+.maincontainer{
+    padding-top: 17px;
+}
+img.mediaimg
+ {
+    max-height: 28px;
+    margin-top: -2px;
+    border-radius: 50%;
+}
+.tableheder
+{
+    border:  1px solid;
+    margin-top:  -87px;
+    padding:  12px;
+    padding-left: -11px;
+    margin-left: -42px;
+    margin-right: -30px;
+}
+@media screen and (max-width: 600px) 
+{
+  .navbar-container a:not(:first-child) {display: none;}
+  .navbar-container a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px)
+ {
+  .navbar-container.responsive {position: relative;}
+  .navbar-container.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+.page-header
+{
+	{
+    width: 70%;
+    margin-left: 342px;
+    display: inline-block;
+}
+	
+.mainpage
+{
+    padding-top: 1px;
+    margin-left: 308px;
+    width: 77%;
+    margin-bottom: 61px;
+}
+
+

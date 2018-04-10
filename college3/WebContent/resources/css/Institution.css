@@ -1,0 +1,62 @@
+
+input[type=text], select, textarea 
+{
+  	padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 2px;
+    resize: vertical;
+    margin-right: 12px;
+}
+
+.bigcontiner
+{
+    border: 1px solid #ccc;
+    width: 67%;
+    background-color: white;
+    padding: 20px;
+    padding-right: 20px;
+    height: 530px;
+    margin: 98px;
+    padding-top: 17px;
+    margin-left: 346px;
+}
+.minicontainer
+{
+    border: 1px solid #ccc;
+    width: 54%;
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    padding-right: 190px;
+    height: 434px;
+    margin: 13px;
+    padding-top: 17px;
+    margin-left: 0px;
+}
+.logocontainer {
+    border: 1px solid #ccc;
+    width: 17%;
+    border-radius: 5px;
+    background-color: white;
+    padding: 4px;
+    padding-right: 20px;
+    height: 180px;
+    margin: -488px;
+    padding-top: 17px;
+    margin-left: 692px;
+}
+@media (min-width: 769px)
+
+.content-wrapper 
+{
+    display: table-cell;
+    vertical-align: top;
+}
+
+.content-wrapper {
+    padding-bottom: 20px;
+    width: 100%;
+}
+
